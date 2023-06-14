@@ -1,0 +1,51 @@
+Tue Jun 13 2023 14:8:17} [PH] error: globalErrorHandler ~ x is not defined
+Tue Jun 13 2023 14:43:18} [PH] error: globalErrorHandler ~ Expected ':' after property name in JSON at position 35
+Tue Jun 13 2023 14:49:42} [PH] error: globalErrorHandler ~ [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "role"
+    ],
+    "message": "role is required "
+  }
+]
+Tue Jun 13 2023 14:51:21} [PH] error: globalErrorHandler ~ [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "role"
+    ],
+    "message": "role is required "
+  }
+]
+Tue Jun 13 2023 14:52:5} [PH] error: globalErrorHandler ~ [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "role"
+    ],
+    "message": "role is required "
+  }
+]
+Tue Jun 13 2023 14:55:51} [PH] error: globalErrorHandler ~ [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "role"
+    ],
+    "message": "role is required "
+  }
+]
+Tue Jun 13 2023 14:58:37} [PH] error: globalErrorHandler ~ User validation failed: role: Path `role` is required.
