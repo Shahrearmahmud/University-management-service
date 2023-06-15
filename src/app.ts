@@ -1,8 +1,9 @@
-import { AcademicSemesterRoutes } from './app/modules/academicSemester/academicSemester.route';
+// import { AcademicSemesterRoutes } from './app/modules/academicSemester/academicSemester.route';
 import express, { Application } from 'express';
 import cors from 'cors';
-import { UserRoutes } from './app/modules/user/user.route';
+// import { UserRoutes } from './app/modules/user/user.route';
 import globalErrorHandler from './app/middlewares/globalErrorHandler';
+import routes from './app/routes';
 // import ApiError from './errors/ApiErrors'
 
 const app: Application = express();
@@ -16,9 +17,10 @@ app.use(express.urlencoded({ extended: true }));
 //Application routes
 
 // logger.info(process.env)
+app.use('/api/v1/', routes);
 
-app.use('/api/v1/users/', UserRoutes);
-app.use('/api/v1/academic-semesters', AcademicSemesterRoutes);
+// app.use('/api/v1/users/', UserRoutes);
+// app.use('/api/v1/academic-semesters', AcademicSemesterRoutes);
 
 // //Testing
 // app.get('/',  async(req: Request, res: Response,next:NextFunction) => {
