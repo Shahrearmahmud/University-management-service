@@ -3,68 +3,54 @@
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-15T05:00:37.221Z'
+  timestamp: '2023-06-16T04:37:14.337Z'
 }
 {
   message: 'Application listening on port 5000',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-15T05:00:37.227Z'
+  timestamp: '2023-06-16T04:37:14.344Z'
 }
 {
   message: 'Database Connected Successfully ',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-15T05:01:22.657Z'
+  timestamp: '2023-06-16T04:45:37.911Z'
 }
 {
   message: 'Application listening on port 5000',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-15T05:01:22.663Z'
+  timestamp: '2023-06-16T04:45:37.916Z'
 }
 {
   message: 'Database Connected Successfully ',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-15T05:09:58.719Z'
+  timestamp: '2023-06-16T04:53:50.610Z'
 }
 {
   message: 'Application listening on port 5000',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-15T05:09:58.725Z'
+  timestamp: '2023-06-16T04:53:50.615Z'
 }
 {
   message: 'Database Connected Successfully ',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-15T05:54:03.873Z'
+  timestamp: '2023-06-16T04:54:46.207Z'
 }
 {
   message: 'Application listening on port 5000',
   level: 'info',
   service: 'user-service',
   label: 'PH',
-  timestamp: '2023-06-15T05:54:03.879Z'
-}
-{
-  message: 'Database Connected Successfully ',
-  level: 'info',
-  service: 'user-service',
-  label: 'PH',
-  timestamp: '2023-06-15T05:56:46.524Z'
-}
-{
-  message: 'Application listening on port 5000',
-  level: 'info',
-  service: 'user-service',
-  label: 'PH',
-  timestamp: '2023-06-15T05:56:46.530Z'
+  timestamp: '2023-06-16T04:54:46.213Z'
 }
