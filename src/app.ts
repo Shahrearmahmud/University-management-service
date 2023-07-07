@@ -5,6 +5,7 @@ import cors from 'cors';
 import globalErrorHandler from './app/middlewares/globalErrorHandler';
 import routes from './app/routes';
 import httpStatus from 'http-status';
+// import { generateFacultyId } from './app/modules/user/user.utils';
 // import ApiError from './errors/ApiErrors'
 
 const app: Application = express();
@@ -34,6 +35,18 @@ app.use((req: Request, res: Response, next: NextFunction) => {
   });
   next();
 });
+
+// const academicSemester ={
+//   code:'01',
+//   year:'2025',
+// };
+
+// const testId = async()=>{
+//   const testId = await generateFacultyId()
+//   console.log(testId)
+// }
+
+// testId();
 // app.use('/api/v1/users/', UserRoutes);
 // app.use('/api/v1/academic-semesters', AcademicSemesterRoutes);
 
