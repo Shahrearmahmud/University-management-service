@@ -18,7 +18,7 @@ app.use(express.urlencoded({ extended: true }));
 
 //Application routes
 
-// logger.info(process.env)
+// console.log(process.env)
 app.use('/api/v1/', routes);
 
 //handle not found
